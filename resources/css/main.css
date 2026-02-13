@@ -1,0 +1,58 @@
+@import 'primeicons/primeicons.css';
+
+/* Design tokens */
+:root {
+  --cta-blue: #003174;
+  --cta-dark-blue: #001a3d;
+  --cta-text-light: #ffffff;
+  --cta-accent: #4ade80;
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  --glass-border: rgba(255, 255, 255, 0.3);
+}
+
+/* Fixed background for the entire app */
+.background-image {
+  position: fixed;
+  inset: 0;
+  background-image: url('https://api.builder.io/api/v1/image/assets/TEMP/5db077b5906e175b4b746f74cf88d9ae5b571b49?width=3656');
+  background-size: 115%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.45;
+  filter: blur(1.5px);
+  z-index: 0;
+}
+
+.gradient-overlay {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(180deg, #003174 0%, #7BA4DB 50%, #003174 100%);
+  opacity: 0.32;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.content-layer {
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Global Typography Fixes */
+.white-text {
+  color: #FFFFFF !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+/* Add this to your main.css or Purpose.vue <style> */
+.flex-grow-1 {
+  flex: 1; /* Ensures the purpose component takes up all space below the header */
+}
+
+/* Ensure images/icons within cards don't blow out the width */
+.custom-card img {
+  max-width: 100%;
+  height: auto;
+}
