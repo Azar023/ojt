@@ -243,7 +243,7 @@ onBeforeUnmount(() => {
   width: min(480px, 80vw);
   height: min(260px, 40vh);
   border-radius: 20px;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), #000000);
+  
   margin-bottom: 2rem; /* Simplified margin */
 }
 
@@ -311,10 +311,10 @@ onBeforeUnmount(() => {
 .id-line.half { width: 50%; }
 
 .personal-info { text-align: left; }
-.label-heading { font-weight: 700; font-size: 1.2rem; margin-bottom: 1rem; color: #1e293b; }
+.label-heading { font-weight: 700; font-size: 1.2rem; margin-bottom: 1rem; color:rgb(254, 255, 255); }
 
 .field-group { margin-bottom: 12px; }
-.field-group label { display: block; font-size: 0.75rem; color:rgb(20, 21, 21); font-weight: 600; margin-bottom: 2px; }
+.field-group label { display: block; font-size: 0.75rem; color:rgb(255, 255, 255); font-weight: 600; margin-bottom: 2px; }
 .field-group input { 
   width: 240px; 
   padding: 8px 12px; 
@@ -330,7 +330,7 @@ onBeforeUnmount(() => {
 .picker-label { 
   font-weight: 600; 
   margin-bottom: 0.5rem; 
-  color: #000000; /* This sets the text color to pure black */
+  color:rgb(255, 255, 255); /* This sets the text color to pure black */
 }
 .office-select {
   width: 100%;
