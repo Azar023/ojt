@@ -40,8 +40,8 @@ import PeakHoursChart from '../../components/admin/PeakHoursChart.vue'
 const router = useRouter()
 
 const visitorLogRows = ref([
-  { name: 'Juan Dela Cruz', purpose: 'Filing Appeals', office: 'Clerk of Court', timeIn: '09:30 AM', status: 'checked-out', statusLabel: '• Checked Out' },
-  { name: 'John Doe', purpose: 'Case Hearings and Proceedings', office: 'Records Office', timeIn: '10:45 AM', status: 'in-building', statusLabel: '• In Building' }
+  { name: 'Juan Dela Cruz', purpose: 'Filing Appeals', office: 'Clerk of Court', timeIn: '09:30 AM', status: 'checked-out', statusLabel: 'Checked Out' },
+  { name: 'John Doe', purpose: 'Case Hearings and Proceedings', office: 'Records Office', timeIn: '10:45 AM', status: 'in-building', statusLabel: 'In Building' }
 ])
 
 const goToSearch = () => {

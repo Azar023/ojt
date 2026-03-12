@@ -172,7 +172,7 @@ const retake = () => {
 }
 
 const confirmPhoto = () => {
-  router.push('/confirm')
+  router.push({ name: 'reminder' })
 }
 
 onBeforeUnmount(() => {

@@ -14,6 +14,7 @@ import VisitorLogbook from '../pages/admin/VisitorLogbook.vue'
 import Reports from '../pages/admin/Reports.vue'
 import Blacklist from '../pages/admin/Blacklist.vue'
 import Settings from '../pages/admin/Settings.vue'
+import ReminderConfirmation from '../pages/ReminderConfirmation.vue'
 
 const routes = [
   {
@@ -26,7 +27,8 @@ const routes = [
       { path: 'purpose', name: 'purpose', component: Purpose },
       { path: 'scan', name: 'scan-qr', component: ScanQR },
       { path: 'existing-visitor', name: 'existing-visitor', component: ExistingVisitor },
-      { path: 'face-capture', name: 'face-capture', component: FaceCapture }
+      { path: 'face-capture', name: 'face-capture', component: FaceCapture },
+      { path: 'reminder', name: 'reminder', component: ReminderConfirmation }
     ]
   },
   {
